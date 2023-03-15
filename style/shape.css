@@ -1,0 +1,50 @@
+body {
+  background: #0b9397;
+}
+
+.dambi-head {
+  width: 700px;
+  height: 560px;
+  background: #fff;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 50% 50% 56% 56% / 40% 40% 60% 60%;
+  box-shadow: 0 10px 10px rgb(190, 190, 190);
+  z-index: 100;
+}
+
+.neck {
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  width: 650px;
+  height: 530px;
+  transform: translate(-50%, -50%);
+  background: #fcfcfc;
+  z-index: -100;
+}
+
+.left-neck {
+  position: absolute;
+
+  left: -78%;
+  width: 550px;
+  height: 530px;
+  background: #0b9397;
+  border-radius: 0% 5% 5% 0% / 0% 50% 50% 0%;
+  border-right: 4px solid rgb(190, 190, 190);
+}
+
+.right-neck {
+  position: absolute;
+  right: -78%;
+  width: 550px;
+  height: 530px;
+  background: #0b9397;
+  border-radius: 5% 0% 0% 5% / 50% 0% 0% 50%;
+  border-left: 4px solid rgb(190, 190, 190);
+}
