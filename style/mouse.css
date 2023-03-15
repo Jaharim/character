@@ -2,7 +2,6 @@
   position: absolute;
   top: 82%;
   left: 350px;
-  /* transform: translate(-50%, -50%); */
   width: 20px;
   height: 3px;
   background: rgba(0, 0, 0, 0.212);
@@ -17,7 +16,6 @@
   width: 90px;
   height: 3px;
   background: rgba(0, 0, 0, 0.212);
-  /* transform-origin: 0 0; */
   transform: rotate(80deg);
   box-shadow: 4px -4px 10px rgba(0, 0, 0, 0.63);
 }
@@ -29,7 +27,6 @@
   width: 90px;
   height: 3px;
   background: rgba(0, 0, 0, 0.212);
-  /* transform-origin: 0 0; */
   transform: rotate(-80deg);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.63);
 }
